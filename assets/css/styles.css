@@ -78,17 +78,27 @@ main {
 }
 
 /*Social buttons*/
+.social-buttons {
+  position: relative;
+  width: 100%;             
+  height: 200px;           
+  display: flex;           
+  justify-content: center; 
+  align-items: center;    
+}
+
 ul {
     position: absolute;
+
     top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-    display: flex;
+    
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0; padding: 0; 
+    display: flex; 
 }
 ul li {
-  list-style:none;
+  list-style:none; /*remove o marcador de lista padrão*/
 }
 ul li a {
   display:block;
