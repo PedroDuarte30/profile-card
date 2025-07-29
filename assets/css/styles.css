@@ -96,7 +96,7 @@ ul {
     display: flex; 
 }
 ul li {
-  list-style:none; /*remove o marcador de lista padrão*/
+  list-style:none; 
 }
 ul li a {
   display:block;
